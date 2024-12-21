@@ -26,12 +26,27 @@ a {
   position: relative;
   box-shadow: 10px 20px 10px #ddd;
 }
+@media (max-width: 575px) {
+  .navbar  {
+      background-color: rgb(115, 12, 29);
+  position: relative;
+  box-shadow: 10px 20px 10px #ddd;
+  }
+
 .navbar .container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   position: relative;
 }
+  @media (max-width: 575px) {
+    .navbar .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  }
+
 .navbar .container .img img {
   border-radius: 50%;
   border: 1px solid rgb(62, 5, 17);
@@ -41,6 +56,11 @@ a {
   font-size: 18px;
   font-weight: bold;
 }
+@media (max-width: 575px) {
+  .header h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
 .header span {
   position: relative;
   left: 30px;
