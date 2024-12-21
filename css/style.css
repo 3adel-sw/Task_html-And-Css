@@ -183,7 +183,7 @@ a {
 @media (max-width: 575px) {
   .courses .container .box {
     display: grid;
-    padding: 20px;
+    padding: 0px;
   }
 }
 .courses .container .box .table {
