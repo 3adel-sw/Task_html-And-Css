@@ -327,10 +327,14 @@ td {
 }
 @media (max-width: 575px) {
   .section .container {
-   position: relative;
-        display: flex;
-        padding: 54px;
-        flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    padding: 54px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
   }
 }
 .section .container .box-section {
@@ -368,15 +372,16 @@ td {
   font-family: fantasy;
 }
 @media (max-width: 575px) {
-  .section .container .box-section h2 
+  .section .container .box-section h2 {
     font-weight: bold;
-  font-style: italic;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-  font-size: 25px;
-  font-family: fantasy;
+    font-style: italic;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 25px;
+    font-family: fantasy;
+  }
 }
 
 .section .container .box-section p {
