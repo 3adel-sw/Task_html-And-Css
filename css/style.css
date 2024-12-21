@@ -1,0 +1,297 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "cairo" sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  --webkit-box-sizing: border-box;
+  --moz-box-sizing: border-box;
+  --box-sizing: border-box;
+}
+
+/* Start Navbar  */
+.navbar {
+  background-color: rgb(115, 12, 29);
+  position: relative;
+  box-shadow: 10px 20px 10px #ddd;
+}
+.navbar .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.navbar .container .img img {
+  border-radius: 50%;
+  border: 1px solid rgb(62, 5, 17);
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
+}
+.header span {
+  position: relative;
+  left: 30px;
+  color: white;
+  background-color: rgb(62, 5, 17);
+  margin: 10px;
+  padding: 2px;
+  border-radius: 5px;
+}
+/* End Navbar  */
+/* Start Landing */
+.landing .container {
+  min-height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 120px;
+  background-image: url(../imgs/Backgraund2.jpg);
+  background-size: cover;
+}
+.landing .container .text {
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
+.landing .container .text h1 {
+  font-size: 50px;
+  margin: 0;
+  letter-spacing: -2px;
+  color: rgb(62, 5, 17);
+}
+.landing .container .content span {
+  font-weight: bold;
+  font-size: 10px;
+  background-color: rgb(62, 5, 17);
+  margin: 15px;
+  padding: 10px;
+  color: white;
+  position: relative;
+  right: 330px;
+  top: 190px;
+  border-radius: 15px;
+}
+
+/* End Landing */
+
+/* Start Courses */
+
+.courses .container {
+  background-color: #ddd;
+}
+.courses .container h2 {
+  text-align: center;
+  padding: 30px;
+  margin: auto;
+  color: rgb(62, 5, 17);
+}
+.courses .container .box {
+  display: grid;
+  padding: 20px;
+}
+.courses .container .box .table {
+  border-collapse: collapse;
+  width: 80%;
+  border: 3px solid #771616;
+  font-size: 18px;
+}
+.courses .container .box .table th,
+td {
+  text-align: center;
+  padding: 12px;
+  border: 2px solid #771616;
+} /* End Courses */
+
+.courses .container .box .table .on {
+  background-color: rgb(72, 73, 73);
+  color: white;
+  font-weight: bold;
+}
+.courses .container .box .table .of {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  font-weight: bold;
+}
+
+.courses .container .box .table .on:hover {
+  background-color: rgb(115 12 29);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.courses .container .box .table .of:hover {
+  background-color: rgb(115 12 29);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.courses .container .box .table img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(115 12 29);
+}
+.courses .container .box .table .now {
+  background-color: rgb(115 12 29);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 25%;
+  display: inline-table;
+  top: 25px;
+}
+/* End Courses */
+/* Start Section */
+.section {
+  background-image: url(../imgs/Backgraund.jpg);
+  background-size: cover;
+}
+.section .container {
+  position: relative;
+  display: flex;
+  padding: 46px;
+}
+.section .container .box-section {
+  border: 3px solid rgb(55 55 55);
+  border-radius: 5px;
+  margin: 20px;
+  background-color: #6b6262;
+}
+.section .container .box-section img {
+  width: 100%;
+  height: 180px;
+}
+.section .container .box-section h2 {
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 35px;
+  font-family: fantasy;
+}
+
+.section .container .box-section p {
+  color: white;
+  padding: 10px 0px 10px 0;
+  margin: inherit;
+  font-size: 20px;
+}
+.section .container .box-section span {
+  background-color: rgb(115 12 29);
+  position: relative;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: monospace;
+}
+/* End Section */
+/* Start Back-end  */
+.back-end .container {
+  background-color: transparent;
+  padding: 30px 15px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.back-end .container .box {
+  background-color: transparent;
+  padding: 30px 15px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+.back-end .container .box .mysql {
+  background-color: #e87a00;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.back-end .container .box .php {
+  background-color: #a8b9e4;
+  border-radius: 10px;
+  padding: 30px;
+}
+.back-end .container .box .php img {
+  background-color: #a8b9e4;
+}
+.back-end .container .box .mysql img {
+  background-color: #e87a00;
+  border-radius: 128px;
+  border: 1px solid #e87a00;
+}
+.back-end .container .box img {
+  background-color: transparent;
+  width: 210px;
+  border-radius: 5px;
+}
+.back-end .container .box h6 {
+  font-size: 15px;
+  font-family: emoji;
+  font-weight: bold;
+  padding: 30px;
+}
+.back-end .container .box p {
+  font-size: medium;
+  color: white;
+  padding: 30px;
+}
+.back-end .container .box span {
+  color: white;
+  border: 1px solid rgb(115 12 29);
+  background-color: rgb(115 12 29);
+  border-radius: 5px;
+  padding: 10px;
+}
+/* End Back-end  */
+/* Start Footer  */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.footer .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.footer .container h1 {
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 35px;
+  font-family: fantasy;
+}
+
+/* End Footer  */
